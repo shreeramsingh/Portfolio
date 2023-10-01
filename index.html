@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/67b0e6dcce.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/logo1.jpeg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <!-- <i class="fa-solid fa-bars" onclick="openmenu()"></i> -->
+            </nav>
+            <div class="header-text">
+                <p>FrontEnd Developer</p>
+                <h1>Hi, I'm <span>Shree Ram</span><br> Singh From Nepal</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----------about------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/cc1.png">
+
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am shree ram singh a self_motivated and tech
+                        Enthiusiast<br> engineering aspriant. I am pursh-
+                        ing my b.tech in the steam<br> of computer science
+                        & engineering at Aditya engineering coll-<br>ege.I
+                        hava a problem solving skill.My technical skill
+                        required<br>Html,CSS,JavaScript using these skill
+                        I have Developed proj-<br>et like Portfolio Website.</p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links " onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>Photo Shop</span><br>Photo Deginer</li>
+                                <li><span>Coding</span><br>Data Structure & Algorithm</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023 - Current</span><br>Web app Development codehelp
+                                Platform</li>
+                                <li><span>Photo Shop</span><br>Photo Editor</li>
+                                <li><span>App Development</span><br>Application Development</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2018</span><br>SLC Padma Ratna Vidya Mandir</li>
+                                <li><span>2020</span><br>Board Triton International college</li>
+                                <li><span>2021</span><br>B.Tech Aditya Engineering college</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- ----------services----------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Web development refers to the process of creating websites and web applications for the internet. 
+                    It encompasses a wide range of tasks and activities, from designing the visual layout and user 
+                    interface of a website to programming the functionality that allows users to interact with the 
+                    site's content.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-light fa-p"></i>
+                <h2>Photoshop</h2>
+                <p>Adobe Photoshop is a popular and powerful software application used for image editing, graphic design
+                    , and digital art creation. It is developed by Adobe Inc. and has been a standard tool in the creative
+                     industry for many years. Photoshop offers a wide range of features and capabilities, including:</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-sharp fa-regular fa-terminal"></i>
+                <h2>Coding (cp)</h2>
+                <p> Coding, also known as programming, is the process of writing instructions for a computer in a language
+                     that it can understand and execute. These instructions are typically written in a programming language,
+                      which is a formalized set of rules and syntax used to communicate with computers and give them specific
+                       tasks to perform.</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------portfolio--------- -->
+<div id="Portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/work1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you yo the talented people around the world.
+                        Download it from play store.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work3.jpeg">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you yo the talented people around the world.
+                        Download it from play store.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work2.jpeg">
+                <div class="layer">
+                    <h3>Musics App</h3>
+                    <p>The app connects you yo the talented people around the world.
+                        Download it from play store.</p>
+                        <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- -------------contact------------ -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+             <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>shreeramsingh1707@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>6203932757</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+             </div>
+             <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+             </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright Kevin. Made with<i class="fa-solid fa-heart"></i> by Easy Tutorials </p>
+    </div>
+</div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right ="0";
+        }
+        function closemenu(){
+            sidemeu.style.right ="-75px";
+        }
+    </script>
+
+</body>
+</html>
